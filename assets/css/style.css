@@ -61,6 +61,10 @@ body  {
 .social-link li {
     display: inline-block;
     margin: 0 15px;
+    
+}
+.social-link li a i:hover {
+   color: #adff2f;
 }
 .facebook {
     width: 35px;
@@ -77,6 +81,7 @@ body  {
     width: 35px;
     padding-left: 13px;
 }
+
 .header-item {
     display: flex;
     justify-content: space-between;
@@ -267,10 +272,7 @@ body  {
 .header-image img {
     width: 100%;
 }
-.header-image {
-    position: relative;
-    z-index: -1;
-}
+
 .header-image::after {
     position: absolute;
     content: '';
@@ -283,10 +285,4 @@ body  {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(46,106,8,0.6446953781512605) 0%);
 }
-.header-image h3 {
-   visibility: hidden;
-   color: #fff;
-}
-.header-image img:hover {
-    cursor: pointer;
-}
+
